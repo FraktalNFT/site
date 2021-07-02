@@ -1,3 +1,3 @@
-### Fraktal Landing Page
+## Fraktal Landing Page
 
 **Live Demo:**
