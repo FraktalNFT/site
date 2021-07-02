@@ -9,17 +9,17 @@ const About = () => {
       </div>
       <div className='fraktal-icons'>
         <div>
-          <Image src='/access-icon.svg' width={220} height={220} />
+          <Image src='/access-icon.svg' width={220} height={220} alt='' />
           <h4>Access for all</h4>
           <p>Fraktions grant access to the NFT without the often unaffordable price tag.</p>
         </div>
         <div>
-          <Image src='/support-icon.svg' width={220} height={220} />
+          <Image src='/support-icon.svg' width={220} height={220} alt='' />
           <h4>Support artists, not gatekeepers</h4>
           <p>What you pay for a Fraktion goes directly to the creator, not an auction house.</p>
         </div>
         <div>
-          <Image src='/union.svg' width={220} height={220} />
+          <Image src='/union.svg' width={220} height={220} alt='' />
           <h4>Grow value</h4>
           <p>As your favorite NFTs mature in value, your collection of Fraktions does too.</p>
         </div>
