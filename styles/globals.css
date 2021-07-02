@@ -174,7 +174,7 @@ h1 {
 @media screen and (max-width: 720px) {
   .fraktal-mission {
     top: 400px;
-    width: 430px;
+    width: 100%;
   }
   .fraktal-icons {
     display: none;

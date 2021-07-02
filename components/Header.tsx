@@ -10,9 +10,9 @@ const Header = () => {
         </Link>
       </div>
       <nav>
-        <Link href='#'><a><Image src='/Twitter/Original.svg' width={25} height={25} /></a></Link>
-        <Link href='#'><a><Image src='/Instagram/Original.svg' width={25} height={25} /></a></Link>
-        <Link href='#'><a><Image src='/Discord/Original.svg' width={25} height={25} /></a></Link>
+        <Link href='#'><a><Image src='/Twitter/Original.svg' width={25} height={25} alt='' /></a></Link>
+        <Link href='#'><a><Image src='/Instagram/Original.svg' width={25} height={25} alt='' /></a></Link>
+        <Link href='#'><a><Image src='/Discord/Original.svg' width={25} height={25} alt='' /></a></Link>
         <Link href='#'><a className='link-text'>BLOG</a></Link>
         <Link href='#'><a className='link-text'>DAO</a></Link>
         <button>Enter Fraktal</button>
