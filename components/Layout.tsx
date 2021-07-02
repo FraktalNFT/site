@@ -1,7 +1,7 @@
-import { props } from 'react'
-import Head from 'next/head';
+import React, { FC } from 'react'
+import Head from 'next/head'
 
-const Layout = (props) => {
+const Layout: React.FC = ({ children }) => {
   return (
     <div>
       <Head>
@@ -11,7 +11,7 @@ const Layout = (props) => {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
       </Head>
       <div>
-        {props.children}
+        {children}
       </div>
    </div>
   );
