@@ -1,4 +1,4 @@
-import React from 'react'
+import { props } from 'react'
 import Head from 'next/head';
 
 const Layout = (props) => {
