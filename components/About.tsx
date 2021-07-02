@@ -5,7 +5,7 @@ const About = () => {
     <section className='about-section'>
       <div className='fraktal-mission'>
         <h2>FRAKTAL IS RESHAPING ART.</h2>
-        <p>Fraktal's mission is to make crypto art investment accessible to everyone. Fraktal allows users to distribute Fraktions–pieces of NFTs–to an unlimited number of users.</p>
+        <p>Fraktal&#39;s mission is to make crypto art investment accessible to everyone. Fraktal allows users to distribute Fraktions–pieces of NFTs–to an unlimited number of users.</p>
       </div>
       <div className='fraktal-icons'>
         <div>
