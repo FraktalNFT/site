@@ -340,6 +340,10 @@ footer h4 {
   text-align: center;
 }
 
+footer h4 a {
+  color: #FFFFFF;
+}
+
 footer p {
   position: relative;
   top: 580px;

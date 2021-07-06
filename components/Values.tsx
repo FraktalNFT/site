@@ -11,9 +11,9 @@ const Values = () => {
       <div className='join'>
         <h3><b>JOIN US</b> AND SHAPE THE FUTURE OF ART</h3>
         <div>
-          <Link href='#'><a><Image src='/Twitter/Original.svg' width={37} height={37} alt='' /></a></Link>
-          <Link href='#'><a><Image src='/Instagram/Original.svg' width={37} height={37} alt='' /></a></Link>
-          <Link href='#'><a><Image src='/Discord/Original.svg' width={37} height={37} alt='' /></a></Link>
+          <Link href='https://twitter.com/FraktalNFT'><a><Image src='/Twitter/Original.svg' width={37} height={37} alt='' /></a></Link>
+          <Link href='https://www.instagram.com/fraktal.io/'><a><Image src='/Instagram/Original.svg' width={37} height={37} alt='' /></a></Link>
+          <Link href='https://discord.gg/Bs56GyMH'><a><Image src='/Discord/Original.svg' width={37} height={37} alt='' /></a></Link>
         </div>
       </div>
     </section>

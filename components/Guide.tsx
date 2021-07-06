@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 
 const Guide = () => {
@@ -22,7 +23,7 @@ const Guide = () => {
           <p>Trade or earn licensing money</p>
         </div>
       </div>
-      <button>Try It Out</button>
+      <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Try It Out</button></Link>
     </section>
   );
 }

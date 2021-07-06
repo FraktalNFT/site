@@ -10,12 +10,12 @@ const Header = () => {
         </Link>
       </div>
       <nav>
-        <Link href='#'><a><Image src='/Twitter/Original.svg' width={25} height={25} alt='' /></a></Link>
-        <Link href='#'><a><Image src='/Instagram/Original.svg' width={25} height={25} alt='' /></a></Link>
-        <Link href='#'><a><Image src='/Discord/Original.svg' width={25} height={25} alt='' /></a></Link>
-        <Link href='#'><a className='link-text'>BLOG</a></Link>
-        <Link href='#'><a className='link-text'>DAO</a></Link>
-        <button>Enter Fraktal</button>
+        <Link href='https://twitter.com/FraktalNFT'><a><Image src='/Twitter/Original.svg' width={25} height={25} alt='' /></a></Link>
+        <Link href='https://www.instagram.com/fraktal.io/'><a><Image src='/Instagram/Original.svg' width={25} height={25} alt='' /></a></Link>
+        <Link href='https://discord.gg/Bs56GyMH'><a><Image src='/Discord/Original.svg' width={25} height={25} alt='' /></a></Link>
+        <Link href='https://medium.com/@fraktal'><a className='link-text'>BLOG</a></Link>
+        <Link href='https://dao.fraktal.io'><a className='link-text'>DAO</a></Link>
+        <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Enter Fraktal</button></Link>
       </nav>
     </header>
   );
