@@ -322,6 +322,10 @@ h1 {
   text-align: center;
 }
 
+.values-section h3 a {
+  color: #000000;
+}
+
 /* End Values */
 
 footer {
