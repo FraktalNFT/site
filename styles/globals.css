@@ -216,7 +216,7 @@ h1 {
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  font-size: 37px;
+  font-size: 40px;
   color: #000000;
   margin-top: 25px;
   margin-bottom: 50px;
@@ -260,7 +260,7 @@ h1 {
 }
 
 .heading-div {
-  width: 600px;
+  width: 650px;
   margin: 0 auto;
   margin-bottom: 350px;
 }
@@ -269,7 +269,7 @@ h1 {
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  font-size: 37px;
+  font-size: 40px;
   color: #000000;
   text-align: center;
   padding-top: 10px;
@@ -370,7 +370,7 @@ footer h4 {
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 30px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -385,7 +385,7 @@ footer p {
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   color: #FFFFFF;
   text-align: center;
 }
