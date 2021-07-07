@@ -235,9 +235,10 @@ h1 {
   font-style: normal;
   font-weight: 400;
   color: #000000;
-  font-size: 17px;
+  font-size: 20px;
   text-align: center;
-  margin-bottom: 35px;
+  margin-top: 7px;
+  margin-bottom: 40px;
 }
 
 .guide-icons div{
@@ -245,7 +246,7 @@ h1 {
 }
 
 .guide-section button{
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 /* End Guide */
