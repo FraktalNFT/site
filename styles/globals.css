@@ -167,7 +167,7 @@ h1 {
   color: #000000;
   text-align: center;
   font-size: 23px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 .fraktal-icons p {
@@ -177,7 +177,18 @@ h1 {
   color: #000000;
   text-align: center;
   font-size: 18px;
-  margin-top: 30px;
+}
+
+.fraktal-icons .access-text {
+  margin-top: 45px;
+}
+
+.fraktal-icons .support-text {
+  margin-top: 17px;
+}
+
+.fraktal-icons .grow-text {
+  margin-top: 45px;
 }
 
 @media screen and (max-width: 720px) {
