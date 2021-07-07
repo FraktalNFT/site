@@ -145,6 +145,12 @@ h1 {
   h1 {
     margin-top: 120px;
   }
+  .hero-section div {
+    margin-top: 0px;
+  }
+  .hero-section button {
+    margin-top: 20px;
+  }
 }
 
 /* End Hero*/
