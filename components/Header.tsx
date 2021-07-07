@@ -5,8 +5,6 @@ import { useState } from 'react';
 const Header = () => {
   const [open, setOpen] = useState(false);
   function showNav() {
-    const hamburgerNav = document.querySelector('.hamburger-nav');
-    (!open) ? hamburgerNav.classList.remove('hide') : hamburgerNav.classList.add('hide');
     setOpen(!open);
   }
   return (
@@ -27,7 +25,7 @@ const Header = () => {
         <Link href='https://dao.fraktal.io'><a className='link-text'>DAO</a></Link>
         <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Enter Fraktal</button></Link>
       </nav>
-      <nav className='hamburger-nav hide'>
+      <nav className={`hamburger-nav ${open ? '' : 'hide'}`}>
         <Link href='https://medium.com/@fraktal'><a className='link-text'>BLOG</a></Link>
         <Link href='https://dao.fraktal.io'><a className='link-text'>DAO</a></Link>
         <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><a className='link-text'>Enter Fraktal</a></Link>        
