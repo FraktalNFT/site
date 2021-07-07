@@ -277,11 +277,10 @@ h1 {
 
 .benefits-icon {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
-  width: 600px;
   margin-top: 50px;
-  margin-left: 10%;
+  margin-left: 11%;
 }
 
 .benefits-icon p {
@@ -289,8 +288,9 @@ h1 {
   font-style: normal;
   font-weight: 400;
   color: #000000;
-  font-size: 17px;
-  width: 320px;
+  font-size: 25px;
+  margin-left: 40px;
+  width: 40%;
 }
 
 @media only screen and (max-width: 720px) {
@@ -316,14 +316,14 @@ h1 {
 }
 
 .eth-div p{
-  width: 300px;
+  width: 320px;
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
   color: #000000;
-  font-size: 17px;
+  font-size: 21px;
   margin-left: 50px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 @media only screen and (max-width: 480px) {
