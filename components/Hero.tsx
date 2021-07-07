@@ -5,7 +5,9 @@ const Hero = () => {
   return (
     <section className='hero-section'>
       <h1>FRAKTAL</h1>
-      <Image src='/fraktal-logo-large.svg' width={800} height={400} alt='' />
+      <span className='logo-large'>
+        <Image src='/fraktal-logo-large.svg' width={800} height={400} alt='' />
+      </span>
       <div>
         <h2>FRACTIONAL</h2>
         <Image src='/single-leaf.svg' width={55} height={55} alt='' />
