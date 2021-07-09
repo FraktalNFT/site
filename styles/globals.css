@@ -35,6 +35,10 @@ header {
   align-items: center;
 }
 
+.hamburger-nav div {
+  display: flex;
+}
+
 .hide {
   display: none;
 }
