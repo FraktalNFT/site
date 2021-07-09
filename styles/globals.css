@@ -306,16 +306,27 @@ h1 {
 
 /* Start Benefits */
 
-.benefits-section {
-  background-image: url('/side-separator.svg');
-  background-position: top -115px right;
-  min-height: 1100px;
+@media only screen and (min-width: 720px) {
+  .benefits-section {
+    background-image: url('/side-separator.svg');
+    background-position: top -115px right;
+    min-height: 1020px;
+  }
 }
 
 .heading-div {
   width: 650px;
   margin: 0 auto;
-  margin-bottom: 350px;
+  margin-bottom: 24%;
+}
+
+@media only screen and (max-width: 720px) {
+  .heading-div {
+    width: 100%;
+    margin-top: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .heading-div h2 {
@@ -344,12 +355,6 @@ h1 {
   font-size: 25px;
   margin-left: 40px;
   width: 40%;
-}
-
-@media only screen and (max-width: 720px) {
-  .benefits-section {
-    display: none;
-  }
 }
 
 /* End Benefits */
