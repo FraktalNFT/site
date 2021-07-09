@@ -13,7 +13,7 @@ const Values = () => {
         <div>
           <Link href='https://twitter.com/FraktalNFT'><a><Image src='/Twitter/Original.svg' width={37} height={37} alt='' /></a></Link>
           <Link href='https://www.instagram.com/fraktal.io/'><a><Image src='/Instagram/Original.svg' width={37} height={37} alt='' /></a></Link>
-          <Link href='https://discord.gg/Bs56GyMH'><a><Image src='/Discord/Original.svg' width={37} height={37} alt='' /></a></Link>
+          <Link href='https://discord.gg/XSXE3rR9DU'><a><Image src='/Discord/Original.svg' width={37} height={37} alt='' /></a></Link>
         </div>
       </div>
     </section>
