@@ -23,7 +23,7 @@ const Guide = () => {
           <p>Trade or earn licensing money</p>
         </div>
       </div>
-      <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Try It Out</button></Link>
+    {/*  <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Try It Out</button></Link> */}
     </section>
   );
 }
