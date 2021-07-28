@@ -3,8 +3,18 @@ import Head from 'next/head'
 
 const Layout: React.FC = ({ children }) => {
   return (
-    <div>
+    <html>
       <Head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-095Q8484JB"></script>
+      <script
+         async
+         dangerouslySetInnerHTML={{
+           __html: `window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+           gtag('config', 'G-095Q8484JB');`
+         }}
+       />
         <title>Fraktal | Fractional NFTs</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +22,7 @@ const Layout: React.FC = ({ children }) => {
         <meta name="description" content="Fractional NFTs powered by a DAO." />
       </Head>
       {children}
-   </div>
+   </html>
   );
 }
 
