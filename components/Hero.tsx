@@ -11,11 +11,13 @@ const Hero = () => {
       <div>
         <h2>FRACTIONAL</h2>
         <Image src='/single-leaf.svg' width={55} height={55} alt='' />
-        <h2>NFTS</h2>
+        <h2>NFTS Powered by a DAO.</h2>
       </div>
+
       <div>
-        <h2>Powered by a DAO</h2>
+        <h2>Fraktal is a protocol for issuing fractional NFTs on Ethereum.</h2>
       </div>
+
       <div className='join'>
 
         <div>

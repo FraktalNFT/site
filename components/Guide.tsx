@@ -4,23 +4,23 @@ import Image from 'next/image'
 const Guide = () => {
   return (
     <section className='guide-section'>
-      <h2>HOW FRAKTAL WORKS</h2>
+      <h2>HOW THE DAO WORKS</h2>
       <div className='guide-icons'>
         <div>
           <Image src='/mint.svg' width={200} height={200} alt='' />
-          <p>Mint or import NFTs</p>
+          <p>Tribute NFT to the DAO</p>
         </div>
         <div>
           <Image src='/frak.svg' width={200} height={200} alt='' />
-          <p>Frak it!</p>
+          <p>Receive Shares</p>
         </div>
         <div>
           <Image src='/distribute.svg' width={200} height={200} alt='' />
-          <p>Distribute Fraktions in the marketplace</p>
+          <p>Curate NFTs with Community</p>
         </div>
         <div>
           <Image src='/earn.svg' width={200} height={200} alt='' />
-          <p>Trade or earn licensing money</p>
+          <p>Earn Fees from the galleries</p>
         </div>
       </div>
     {/*  <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Try It Out</button></Link> */}

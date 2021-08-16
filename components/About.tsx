@@ -4,24 +4,24 @@ const About = () => {
   return (
     <section className='about-section'>
       <div className='fraktal-mission'>
-        <h2>FRAKTAL IS RESHAPING ART.</h2>
-        <p>Fraktal&#39;s mission is to make crypto art investment accessible to everyone. Fraktal allows users to distribute Fraktions–pieces of NFTs–to an unlimited number of users.</p>
+        <h2>The Fraktal DAO</h2>
+        <p>The Fraktal DAO governs the marketplace, finances, FRAK token treasury, and NFT vaults. It also enables community driven investment, management, and curation of NFTs across the metaverse and physical galleries.</p>
       </div>
       <div className='fraktal-icons'>
         <div>
           <Image src='/access-icon.svg' width={220} height={220} alt='' />
-          <h4>Access for all</h4>
-          <p className='access-text'>Fraktions grant access to the NFT without the often unaffordable price tag.</p>
+          <h4>Govern</h4>
+          <p className='access-text'>Control the smart contracts and finances of the ecosystem.</p>
         </div>
         <div>
           <Image src='/support-icon.svg' width={220} height={220} alt='' />
-          <h4>Support artists, not gatekeepers</h4>
-          <p className='support-text'>What you pay for a Fraktion goes directly to the creator, not an auction house.</p>
+          <h4>Collect Fees</h4>
+          <p className='support-text'>Fees from the marketplace and integrated dapps flow to the DAO Bank.</p>
         </div>
         <div>
           <Image src='/union.svg' width={220} height={220} alt='' />
-          <h4>Grow value</h4>
-          <p className='grow-text'>As your favorite NFTs mature in value, your collection of Fraktions does too.</p>
+          <h4>Manage NFTs</h4>
+          <p className='grow-text'>Co-invest, manage, and curate NFTs as a community.</p>
         </div>
       </div>
     </section>
