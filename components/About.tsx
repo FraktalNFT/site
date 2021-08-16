@@ -5,7 +5,7 @@ const About = () => {
     <section className='about-section'>
       <div className='fraktal-mission'>
         <h2>The Fraktal DAO</h2>
-        <p>The Fraktal DAO governs the marketplace, finances, FRAK token treasury, and NFT vaults. It also enables community driven investment, management, and curation of NFTs across the metaverse and physical galleries.</p>
+        <p>The Fraktal DAO governs the ecosystem including the marketplace, finances, FRAK token, and NFT vaults. It also enables community driven investment, management, and curation of NFTs across the metaverse and physical galleries. It uses Fractional NFTs to ensure liquidity and redemptions when exiting the DAO.</p>
       </div>
       <div className='fraktal-icons'>
         <div>
