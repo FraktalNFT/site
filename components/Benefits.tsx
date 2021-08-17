@@ -11,7 +11,7 @@ const Benefits = () => {
       </div>
       <div className='benefits-icon'>
         <Image src='/engage-icon.svg' width={180} height={180} alt='' />
-        <p>Co-Invest - Directly purchase any NFT from the marketplace directly from a DAO's shared funds.</p>
+        <p>Co-Invest - Directly purchase any NFT from the marketplace directly from a DAO&apos;s shared funds.</p>
       </div>
       <div className='benefits-icon'>
         <Image src='/monetize-icon.svg' width={180} height={180} alt='' />
@@ -23,7 +23,7 @@ const Benefits = () => {
       </div>
       <div className='benefits-icon'>
         <Image src='/retain-icon.svg' width={180} height={180} alt='' />
-        <p>So much cool stuff we haven't thought of yet.</p>
+        <p>So much cool stuff we haven&apos;t thought of yet.</p>
       </div>
     </section>
   );
