@@ -9,13 +9,13 @@ const Hero = () => {
         <Image src='/fraktal-logo-large.svg' width={800} height={400} alt='' />
       </span>
       <div>
-        <h2>A PROTOCOL for FRACTIONAL</h2>
+        <h2>Community Curated</h2>
         <Image src='/single-leaf.svg' width={55} height={55} alt='' />
         <h2>NFTs</h2>
       </div>
 
       <div>
-  
+
           <h2>Powered by a DAO.</h2>
       </div>
 
