@@ -6,7 +6,7 @@ const About = () => {
       <div className='fraktal-mission'>
 
         <h2>Community Driven NFTs</h2>
-        <p>Don&apos;t let your NFTs collect digital dust in a wallet. Engage in a community of like minded collectors and artists whose mission is to spread NFT culture throughout the metaverse.</p>
+        <p>Don&apos;t let NFTs collect digital dust in a wallet. Engage in a community of like minded collectors and artists whose mission is to spread NFT culture throughout the metaverse.</p>
       <br></br>
       <br></br>
         <br></br>  <br></br>
