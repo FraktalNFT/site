@@ -1,35 +1,34 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-const Guide = () => {
+const Why = () => {
   return (
     <section className='guide-section'>
-      <h2>How it works</h2>
-      <br></br>
-        <br></br>
-          <br></br>
+      <h2>Why Fraktal</h2>
+      <h3>Collect, Manage and Grow together as a community of like minded individuals whose mission is to spread NFT culture throughout the metaverse.</h3>
+      <br></br><br></br><br></br><br></br>
+
       <div className='guide-icons'>
         <div>
           <Image src='/mint.svg' width={200} height={200} alt='' />
-          <p>Tribute an NFT to the DAO in exchange for Shares</p>
+          <h3>Diverse</h3>
+          <p>The easiest and most secure way to diversify NFT holdings.</p>
         </div>
         <div>
           <Image src='/frak.svg' width={200} height={200} alt='' />
-          <p>Curate the DAO Collection with the community</p>
+          <h3>Liquid</h3>
+          <p>Provide Liquidity to NFT pairs directly from the DAO.</p>
         </div>
         <div>
           <Image src='/distribute.svg' width={200} height={200} alt='' />
-          <p>Grow the collection using the DAO Bank.</p>
+          <h3>Income Generating</h3>
+          <p>Create revenue streams directly from metaverse galleries.</p>
         </div>
-        <div>
-          <Image src='/earn.svg' width={200} height={200} alt='' />
-          <p>Earn ETH from Galleries, Dapps, and Sales</p>
-        </div>
+
       </div>
-      <button>Join the DAO</button>
     {/*  <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Try It Out</button></Link> */}
     </section>
   );
 }
 
-export default Guide;
+export default Why;
