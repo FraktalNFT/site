@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer>
-      <h4>LET'S SHAPE THE FUTURE OF THE CREATIVE INDUSTRY</h4>
+      <h4>LET&apos;S SHAPE THE FUTURE OF THE CREATIVE INDUSTRY</h4>
 
       <p>Copyright @ 2021 Fraktal</p>
     </footer>
