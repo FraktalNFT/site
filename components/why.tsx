@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Why = () => {
   return (
     <section className='guide-section'>
-      <h2>Powerful DAO Features</h2>
+      <h2>Benefit from Powerful DAO Features</h2>
 
       <br></br><br></br><br></br><br></br>
 
