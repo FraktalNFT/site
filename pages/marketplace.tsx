@@ -4,7 +4,7 @@ import MarketGuide from '../components/MarketGuide'
 import MarketIntro from '../components/MarketIntro'
 import Footer from '../components/Footer'
 
-const Index = () => {
+const Marketplace = () => {
   return(
     <Layout>
       <Header />
