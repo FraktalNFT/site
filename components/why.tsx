@@ -4,8 +4,8 @@ import Image from 'next/image'
 const Why = () => {
   return (
     <section className='guide-section'>
-      <h2>Why Fraktal</h2>
-      <h3>Collect, Manage and Grow together as a community of like minded individuals whose mission is to spread NFT culture throughout the metaverse.</h3>
+      <h2>Powerful DAO Features</h2>
+
       <br></br><br></br><br></br><br></br>
 
       <div className='guide-icons'>
@@ -17,7 +17,7 @@ const Why = () => {
         <div>
           <Image src='/frak.svg' width={200} height={200} alt='' />
           <h3>Liquid</h3>
-          <p>Provide Liquidity to NFT pairs directly from the DAO.</p>
+          <p>Leverage fractional NFTs to vastly increase liquidity.</p>
         </div>
         <div>
           <Image src='/distribute.svg' width={200} height={200} alt='' />

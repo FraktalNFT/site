@@ -11,13 +11,12 @@ const About = () => {
 
 
         <h2>Unleash the Value of NFTs</h2>
-        <p>Fraktal unlocks the power of NFTs by enabling community driven investment, curation, and monetisation with DAOs.</p>
-        <br></br>
+        <p>For NFT collectors who are bored with hodling, Fraktal DAO unlocks the power of NFTs by enabling community driven investment, curation, and monetisation.</p>
 
+      
+          <br></br>
         <button>Learn More Button - scrolls down to next section</button>
-        <br></br>
-        <br></br>
-        <button>Get Started Button - goes to daohaus page</button>
+
 
 
 

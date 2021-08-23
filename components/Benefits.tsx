@@ -4,7 +4,8 @@ const Benefits = () => {
   return (
     <section className='benefits-section'>
       <div className='heading-div'>
-        <h1>Benefits</h1>
+        <h1>Go Further Together</h1>
+        <h2>Collect, manage and grow together as a community of top collectors working towards disrupting the creative industry to put power back in the hands of artists and individuals. </h2>
 
       </div>
       <div className='benefits-icon'>
