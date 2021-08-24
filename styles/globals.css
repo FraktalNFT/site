@@ -362,6 +362,15 @@ h1 {
   padding-top: 10px;
 }
 
+.benefits-section p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 21px;
+  margin-top: 40px;
+}
+
 .benefits-icon {
   display: flex;
   justify-content: flex-start;
