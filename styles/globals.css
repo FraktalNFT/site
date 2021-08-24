@@ -288,6 +288,16 @@ h1 {
   text-align: center;
 }
 
+.guide-section h3 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
 .guide-icons {
   display: flex;
   justify-content: space-around;
@@ -431,7 +441,7 @@ h1 {
   margin-bottom: 100px;
 }
 
-.values-section h3 {
+.values-section h3, {
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;

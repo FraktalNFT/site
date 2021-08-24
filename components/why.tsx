@@ -5,9 +5,6 @@ const Why = () => {
   return (
     <section className='guide-section'>
       <h2>Benefit from Powerful DAO Features</h2>
-
-      <br></br><br></br><br></br><br></br>
-
       <div className='guide-icons'>
         <div>
           <Image src='/mint.svg' width={200} height={200} alt='' />
