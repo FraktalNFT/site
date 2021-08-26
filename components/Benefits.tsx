@@ -1,25 +1,34 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 const Benefits = () => {
   return (
-    <section className='benefits-section'>
-      <div className='heading-div'>
-        <h2>A WIN-WIN FOR CREATORS AND COLLECTORS</h2>
+    <section className="benefits-section">
+      <div className="heading-div">
+        <h2>Go Further Together</h2>
+        <p>
+          Collect, manage and grow together as a community of top collectors
+          working towards disrupting the creative industry to put power back in
+          the hands of artists and individuals.
+        </p>
       </div>
-      <div className='benefits-icon'>
-        <Image src='/engage-icon.svg' width={180} height={180} alt='' />
-        <p>Engage audiences on a whole new level</p>
+      <div className="benefits-icon">
+        <Image src="/engage-icon.svg" width={180} height={180} alt="" />
+        <p>Invest alongside the top collectors in the industry</p>
       </div>
-      <div className='benefits-icon'>
-        <Image src='/monetize-icon.svg' width={180} height={180} alt='' />
-        <p>Monetize your content in infinite ways</p>
+      <div className="benefits-icon">
+        <Image src="/monetize-icon.svg" width={180} height={180} alt="" />
+        <p>Curate and manage high value NFTs with an amazing community</p>
       </div>
-      <div className='benefits-icon'>
-        <Image src='/retain-icon.svg' width={180} height={180} alt='' />
-        <p>Retain control and ownership</p>
+      <div className="benefits-icon">
+        <Image src="/retain-icon.svg" width={180} height={180} alt="" />
+        <p>Experience the metaverse like never before through DAO Galleries</p>
+      </div>
+      <div className="benefits-icon">
+        <Image src="/monetize-icon.svg" width={180} height={180} alt="" />
+        <p>Generate income from idle NFTs</p>
       </div>
     </section>
   );
-}
+};
 
 export default Benefits;

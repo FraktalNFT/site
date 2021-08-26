@@ -1,12 +1,11 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer>
-      <h4><Link href='https://medium.com/fraktalnft'><a>BLOG</a></Link> | <Link href='https://github.com/FraktalNFT/contract-audits'><a>AUDITS</a></Link></h4>
-      <p>Copyright @ 2021 Fraktal</p>
+      <h4>SHAPE THE FUTURE OF THE CREATIVE INDUSTRY</h4>
     </footer>
   );
-}
+};
 
 export default Footer;
