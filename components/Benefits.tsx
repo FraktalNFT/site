@@ -24,7 +24,7 @@ const Benefits = () => {
         <p>Experience the metaverse like never before through DAO Galleries</p>
       </div>
       <div className="benefits-icon">
-        <Image src="/retain-icon.svg" width={180} height={180} alt="" />
+        <Image src="/monetize-icon.svg" width={180} height={180} alt="" />
         <p>Generate income from idle NFTs</p>
       </div>
     </section>
