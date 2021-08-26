@@ -52,7 +52,6 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      {/*    <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Get Started</button></Link> */}
     </section>
   );
 };

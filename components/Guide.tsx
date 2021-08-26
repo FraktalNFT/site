@@ -4,8 +4,8 @@ import Image from "next/image";
 const Guide = () => {
   return (
     <section className="guide-section">
-      <h2>How it works</h2>
-      <div className="guide-icons">
+      <h2>How it Works</h2>
+      <div className="guide-icons" id="how">
         <div>
           <Image src="/mint.svg" width={200} height={200} alt="" />
           <p>Tribute an NFT to the DAO in exchange for Shares</p>
