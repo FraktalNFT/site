@@ -5,9 +5,6 @@ const Guide = () => {
   return (
     <section className="guide-section">
       <h2>How it works</h2>
-      <br></br>
-      <br></br>
-      <br></br>
       <div className="guide-icons">
         <div>
           <Image src="/mint.svg" width={200} height={200} alt="" />
@@ -26,8 +23,7 @@ const Guide = () => {
           <p>Earn ETH from Galleries, Dapps, and Sales</p>
         </div>
       </div>
-      <button>Join the DAO</button>
-      {/*  <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Try It Out</button></Link> */}
+      <Link href='https://blog.fraktal.io/join-the-fraktal-dao-genesis-f810fb70def3'><button>Join the DAO</button></Link>
     </section>
   );
 };

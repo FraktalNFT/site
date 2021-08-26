@@ -28,7 +28,7 @@ const Header = () => {
         <Link href="https://blog.fraktal.io/dao/home">
           <a className="link-text">DAO</a>
         </Link>
-        <Link href="">
+        <Link href="/marketplace">
           <a className="link-text">Marketplace</a>
         </Link>
         <Link href="https://medium.com/fraktalnft">
