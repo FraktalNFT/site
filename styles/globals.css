@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 a {
   text-decoration: none;
@@ -43,7 +43,8 @@ header {
   display: none;
 }
 
-nav a, .join a {
+nav a,
+.join a {
   padding: 10px;
 }
 
@@ -57,7 +58,7 @@ nav a, .join a {
 
 header button {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 6px;
   margin-left: 10px;
   padding: 5px 20px;
@@ -78,13 +79,15 @@ header button {
     flex-direction: column;
     align-items: stretch;
   }
-  .logo-small, .main-nav {
+  .logo-small,
+  .main-nav {
     display: none;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  .hamburger, .hamburger-nav {
+  .hamburger,
+  .hamburger-nav {
     display: none;
   }
 }
@@ -93,7 +96,8 @@ header button {
 
 /* Start Hero */
 
-.hero-section, .guide-section {
+.hero-section,
+.guide-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,9 +135,11 @@ h1 {
   color: #000000;
 }
 
-.hero-section button, .guide-section button, .about-section button {
+.hero-section button,
+.guide-section button,
+.about-section button {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 5px;
   padding: 10px 45px;
   border-radius: 32px;
@@ -163,7 +169,7 @@ h1 {
 /* Start About */
 
 .about-section {
-  background-image: url('/big-leaf-separator.svg');
+  background-image: url("/big-leaf-separator.svg");
   background-position: 0px -550px;
   min-height: 1150px;
   margin-top: 3%;
@@ -183,7 +189,7 @@ h1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 37px;
   text-align: center;
 }
@@ -192,7 +198,7 @@ h1 {
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 21px;
   margin-top: 40px;
 }
@@ -262,7 +268,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-.about-button button{
+.about-button button {
   margin-top: 250px;
 }
 
@@ -271,13 +277,13 @@ h1 {
 /* Start Guide */
 
 .guide-section {
-  background-image: url('/vectors.svg');
+  background-image: url("/vectors.svg");
   min-height: 840px;
   padding-left: 35px;
   padding-right: 35px;
 }
 
-.guide-section h2{
+.guide-section h2 {
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
@@ -305,7 +311,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-.guide-icons p{
+.guide-icons p {
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
@@ -316,11 +322,11 @@ h1 {
   margin-bottom: 40px;
 }
 
-.guide-icons div{
+.guide-icons div {
   width: 260px;
 }
 
-.guide-section button{
+.guide-section button {
   margin-top: 10px;
 }
 
@@ -330,7 +336,7 @@ h1 {
 
 @media only screen and (min-width: 720px) {
   .benefits-section {
-    background-image: url('/side-separator.svg');
+    background-image: url("/side-separator.svg");
     background-position: top -115px right;
     min-height: 1020px;
   }
@@ -418,7 +424,7 @@ h1 {
   margin-top: 85px;
 }
 
-.eth-div p{
+.eth-div p {
   width: 320px;
   font-family: Inter;
   font-style: normal;
@@ -450,7 +456,7 @@ h1 {
   margin-bottom: 100px;
 }
 
-.values-section h3, {
+.values-section h3 {
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
@@ -466,7 +472,7 @@ h1 {
 /* End Values */
 
 footer {
-  background-image: url('/footer.svg');
+  background-image: url("/footer.svg");
   height: 654px;
 }
 
@@ -477,12 +483,12 @@ footer h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
 footer h4 a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 footer p {
@@ -492,6 +498,6 @@ footer p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }

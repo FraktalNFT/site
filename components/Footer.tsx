@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -8,6 +8,6 @@ const Footer = () => {
       <p>Copyright @ 2021 Fraktal</p>
     </footer>
   );
-}
+};
 
 export default Footer;
