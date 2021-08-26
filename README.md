@@ -1,3 +1,1 @@
 ## Fraktal Landing Page
-
-

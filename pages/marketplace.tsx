@@ -1,11 +1,11 @@
-import Layout from '../components/Layout'
-import Header from '../components/Header'
-import MarketGuide from '../components/MarketGuide'
-import MarketIntro from '../components/MarketIntro'
-import Footer from '../components/Footer'
+import Layout from "../components/Layout";
+import Header from "../components/Header";
+import MarketGuide from "../components/MarketGuide";
+import MarketIntro from "../components/MarketIntro";
+import Footer from "../components/Footer";
 
 const Marketplace = () => {
-  return(
+  return (
     <Layout>
       <Header />
       <MarketIntro />
@@ -13,6 +13,6 @@ const Marketplace = () => {
       <Footer />
     </Layout>
   );
-}
+};
 
 export default Marketplace;

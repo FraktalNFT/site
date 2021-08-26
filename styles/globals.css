@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 a {
   text-decoration: none;
@@ -43,7 +43,8 @@ header {
   display: none;
 }
 
-nav a, .join a {
+nav a,
+.join a {
   padding: 10px;
 }
 
@@ -57,7 +58,7 @@ nav a, .join a {
 
 header button {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 6px;
   margin-left: 10px;
   padding: 5px 20px;
@@ -78,13 +79,15 @@ header button {
     flex-direction: column;
     align-items: stretch;
   }
-  .logo-small, .main-nav {
+  .logo-small,
+  .main-nav {
     display: none;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  .hamburger, .hamburger-nav {
+  .hamburger,
+  .hamburger-nav {
     display: none;
   }
 }
@@ -93,7 +96,8 @@ header button {
 
 /* Start Hero */
 
-.hero-section, .guide-section {
+.hero-section,
+.guide-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,9 +135,17 @@ h1 {
   color: #000000;
 }
 
-.hero-section button, .guide-section button {
+@media only screen and (max-width: 480px) {
+  .hero-section h2 {
+    font-size: 23px;
+  }
+}
+
+.hero-section button,
+.guide-section button,
+.about-section button {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 5px;
   padding: 10px 45px;
   border-radius: 32px;
@@ -158,12 +170,20 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .hero-section .join {
+    margin-top: 10px;
+  }
+}
+
+
+
 /* End Hero*/
 
 /* Start About */
 
 .about-section {
-  background-image: url('/big-leaf-separator.svg');
+  background-image: url("/big-leaf-separator.svg");
   background-position: 0px -550px;
   min-height: 1150px;
   margin-top: 3%;
@@ -174,6 +194,7 @@ h1 {
 .fraktal-mission {
   position: relative;
   margin: 0 auto;
+  padding-top: 10%;
   width: 600px;
   top: 210px;
 }
@@ -182,7 +203,7 @@ h1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 37px;
   text-align: center;
 }
@@ -191,9 +212,10 @@ h1 {
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 21px;
   margin-top: 40px;
+  line-height: 1.3;
 }
 
 .fraktal-icons {
@@ -254,18 +276,35 @@ h1 {
   }
 }
 
+.about-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-button button {
+  margin-top: 250px;
+}
+
+@media only screen and (max-width: 720px) {
+  .about-button button {
+    margin-top: 450px;
+  }
+}
+
 /* End About */
 
 /* Start Guide */
 
 .guide-section {
-  background-image: url('/vectors.svg');
+  background-image: url("/vectors.svg");
   min-height: 840px;
   padding-left: 35px;
   padding-right: 35px;
 }
 
-.guide-section h2{
+.guide-section h2 {
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
@@ -276,14 +315,42 @@ h1 {
   text-align: center;
 }
 
-.guide-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+.guide-section h3 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  justify-content: start;
 }
 
-.guide-icons p{
+.guide-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+@media only screen and (max-width: 720px) {
+  .guide-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #how {
+    max-width: 60vw;  
+  }
+}
+
+.guide-icons p {
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
@@ -291,14 +358,14 @@ h1 {
   font-size: 20px;
   text-align: center;
   margin-top: 7px;
-  margin-bottom: 40px;
+  min-height: 100px;
 }
 
-.guide-icons div{
+.guide-icons div {
   width: 260px;
 }
 
-.guide-section button{
+.guide-section button {
   margin-top: 10px;
 }
 
@@ -308,7 +375,7 @@ h1 {
 
 @media only screen and (min-width: 720px) {
   .benefits-section {
-    background-image: url('/side-separator.svg');
+    background-image: url("/side-separator.svg");
     background-position: top -115px right;
     min-height: 1020px;
   }
@@ -338,6 +405,16 @@ h1 {
   color: #000000;
   text-align: center;
   padding-top: 10px;
+}
+
+.benefits-section p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 21px;
+  margin-top: 40px;
+  line-height: 1.3;
 }
 
 .benefits-icon {
@@ -387,7 +464,7 @@ h1 {
   margin-top: 85px;
 }
 
-.eth-div p{
+.eth-div p {
   width: 320px;
   font-family: Inter;
   font-style: normal;
@@ -435,7 +512,7 @@ h1 {
 /* End Values */
 
 footer {
-  background-image: url('/footer.svg');
+  background-image: url("/footer.svg");
   height: 654px;
 }
 
@@ -446,12 +523,12 @@ footer h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
 footer h4 a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 footer p {
@@ -461,6 +538,6 @@ footer p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
