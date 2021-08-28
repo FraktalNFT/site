@@ -6,7 +6,7 @@ import Guide from "../components/Guide";
 import Benefits from "../components/Benefits";
 import Values from "../components/Values";
 import Footer from "../components/Footer";
-import Why from "../components/why";
+import Why from "../components/Why";
 
 const Index = () => {
   return (
