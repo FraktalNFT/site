@@ -97,7 +97,8 @@ header button {
 /* Start Hero */
 
 .hero-section,
-.guide-section {
+.guide-section,
+.market-guide {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,7 +145,8 @@ h1 {
 .hero-section button,
 .guide-section button,
 .about-section button,
-.footer-section button {
+.footer-section button,
+.market-guide button {
   background-color: #000000;
   color: #ffffff;
   margin-top: 5px;
@@ -303,7 +305,8 @@ h1 {
   padding-right: 35px;
 }
 
-.guide-section h2 {
+.guide-section h2,
+.market-guide h2 {
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
@@ -314,7 +317,8 @@ h1 {
   text-align: center;
 }
 
-.guide-section h3 {
+.guide-section h3,
+.market-guide h3 {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -335,9 +339,9 @@ h1 {
 @media only screen and (max-width: 720px) {
   .guide-icons {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
   }
 }
 
@@ -362,7 +366,8 @@ h1 {
   width: 260px;
 }
 
-.guide-section button {
+.guide-section button,
+.market-guide button {
   margin-top: 10px;
 }
 
@@ -404,7 +409,8 @@ h1 {
   padding-top: 10px;
 }
 
-.benefits-section p {
+.benefits-section p,
+.market-intro p {
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
@@ -543,4 +549,68 @@ footer h4 {
     margin-right: 20px;
     text-align: center;
   }
+}
+
+/* Marketplace */
+
+.market-hero {
+  background-image: url("/big-leaf-separator.svg");
+  background-position: 0px -350px;
+  min-height: 1550px;
+  margin-top: 3%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.market-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.market-heading h1 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .market-heading h1 {
+    margin-top: 35px;
+  }
+}
+
+.market-heading {
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 24%;
+}
+
+.market-heading h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 250px;
+}
+
+@media only screen and (max-width: 480px) {
+  .market-heading h1 {
+    margin-top: 120px;
+    margin-bottom: 0px;
+  }
+  .market-heading h2 {
+    font-size: 23px;
+  }
+}
+
+.market-intro {
+  padding-bottom: 200px;
 }
