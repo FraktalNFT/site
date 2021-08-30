@@ -143,7 +143,8 @@ h1 {
 
 .hero-section button,
 .guide-section button,
-.about-section button {
+.about-section button,
+.footer-section button {
   background-color: #000000;
   color: #ffffff;
   margin-top: 5px;
@@ -175,8 +176,6 @@ h1 {
     margin-top: 10px;
   }
 }
-
-
 
 /* End Hero*/
 
@@ -331,7 +330,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  
 }
 
 @media only screen and (max-width: 720px) {
@@ -343,10 +341,9 @@ h1 {
   }
 }
 
-
 @media only screen and (max-width: 1000px) {
   #how {
-    max-width: 60vw;  
+    max-width: 60vw;
   }
 }
 
@@ -514,30 +511,36 @@ h1 {
 footer {
   background-image: url("/footer.svg");
   height: 654px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer h4 {
-  position: relative;
-  top: 400px;
+  margin-top: 400px;
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   color: #ffffff;
-  text-align: center;
 }
 
-footer h4 a {
-  color: #ffffff;
+.footer-section button {
+  margin-top: 40px;
 }
 
-footer p {
-  position: relative;
-  top: 580px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #ffffff;
-  text-align: center;
+@media only screen and (max-width: 720px) {
+  .footer-section h4 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-section h4 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
 }
