@@ -6,7 +6,7 @@ import Guide from "../components/Guide";
 import Benefits from "../components/Benefits";
 import Values from "../components/Values";
 import Footer from "../components/Footer";
-import Why from "../components/Why";
+import How from "../components/How";
 
 const Index = () => {
   return (
@@ -14,7 +14,7 @@ const Index = () => {
       <Header />
       <Hero />
       <About />
-      <Why />
+      <How />
       <Guide />
       <Benefits />
       <Footer />
