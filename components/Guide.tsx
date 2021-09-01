@@ -23,7 +23,10 @@ const Guide = () => {
           <p>Earn ETH from Galleries, Dapps, and Sales</p>
         </div>
       </div>
-      <Link href="https://blog.fraktal.io/join-the-fraktal-dao-genesis-f810fb70def3">
+      <Link
+        href="https://blog.fraktal.io/join-the-fraktal-dao-genesis-f810fb70def3"
+        passHref
+      >
         <button>Join the DAO</button>
       </Link>
     </section>
