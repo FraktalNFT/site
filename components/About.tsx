@@ -13,7 +13,9 @@ const About = () => {
         </p>
       </div>
       <div className="about-button">
-       <Link href='#benefits'><button>Learn More</button></Link>
+        <Link href="#benefits" passHref>
+          <button>Learn More</button>
+        </Link>
       </div>
     </section>
   );

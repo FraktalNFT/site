@@ -1,18 +1,20 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import MarketGuide from "../components/MarketGuide";
-import MarketIntro from "../components/MarketIntro";
 import Footer from "../components/Footer";
+import MarketHero from "../components/MarketHero";
+import MarketIntro from "../components/MarketIntro";
+import MarketGuide from "../components/MarketGuide";
 
-const Marketplace = () => {
+const MarketPlace = () => {
   return (
     <Layout>
       <Header />
-      <MarketIntro />
+      <MarketHero />
       <MarketGuide />
+      <MarketIntro />
       <Footer />
     </Layout>
   );
 };
 
-export default Marketplace;
+export default MarketPlace;
