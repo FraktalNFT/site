@@ -19,7 +19,10 @@ const MarketGuide = () => {
           <p>Earn revenue from sales, royalties, and licensing</p>
         </div>
       </div>
-      <Link href="https://blog.fraktal.io/testnet-frak-is-here-221b451cc777">
+      <Link
+        href="https://blog.fraktal.io/testnet-frak-is-here-221b451cc777"
+        passHref
+      >
         <button>Join Testnet</button>
       </Link>
     </section>
