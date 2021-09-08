@@ -25,7 +25,7 @@ const Header = () => {
         <Image src="/hamburger.svg" width={45} height={30} alt="" />
       </div>
       <nav className="main-nav">
-        <Link href="https://blog.fraktal.io/dao/home">
+        <Link href="https://app.daohaus.club/dao/0x1/0x20aadbcef735356fffeb2f40519ac7105c0284b4">
           <a className="link-text">DAO</a>
         </Link>
         <Link href="/marketplace">
@@ -58,7 +58,7 @@ const Header = () => {
         {/*    <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Enter Fraktal</button></Link> */}
       </nav>
       <nav className={`hamburger-nav ${open ? "" : "hide"}`}>
-      <Link href="https://blog.fraktal.io/dao/home">
+      <Link href="https://app.daohaus.club/dao/0x1/0x20aadbcef735356fffeb2f40519ac7105c0284b4">
         <a className="link-text">DAO</a>
       </Link>
       <Link href="/marketplace">

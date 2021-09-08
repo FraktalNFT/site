@@ -9,7 +9,7 @@ const About = () => {
         <p>
           For NFT collectors who are bored with hodling, Fraktal DAO unlocks the
           power of NFTs by enabling community driven investment, curation, and
-          monetisation.
+          monetization.
         </p>
       </div>
       <div className="about-button">

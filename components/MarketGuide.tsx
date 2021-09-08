@@ -20,7 +20,7 @@ const MarketGuide = () => {
         </div>
       </div>
       <Link
-        href="https://blog.fraktal.io/testnet-frak-is-here-221b451cc777"
+        href="https://testnet.fraktal.io/"
         passHref
       >
         <button>Join Testnet</button>
