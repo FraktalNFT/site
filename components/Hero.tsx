@@ -40,7 +40,7 @@ const Hero = () => {
               />
             </a>
           </Link>
-          <Link href="https://discord.gg/2378rAGuAX">
+          <Link href="https://discord.com/invite/P6fCPvtZtq">
             <a>
               <Image
                 src="/Discord/Original.svg"

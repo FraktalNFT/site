@@ -49,7 +49,7 @@ const Header = () => {
             />
           </a>
         </Link>
-        <Link href="https://discord.gg/2378rAGuAX">
+        <Link href="https://discord.com/invite/P6fCPvtZtq">
           <a>
             <Image src="/Discord/Original.svg" width={25} height={25} alt="" />
           </a>
@@ -91,7 +91,7 @@ const Header = () => {
               />
             </a>
           </Link>
-          <Link href="https://https://discord.gg/2378rAGuAX">
+          <Link href="https://discord.com/invite/P6fCPvtZtq">
             <a>
               <Image
                 src="/Discord/Original.svg"
