@@ -13,7 +13,7 @@ const Values = () => {
       </div>
       <div className="join">
         <h3>
-          <Link href="https://fraktal-front-git-web3-integration-sunguru98.vercel.app/">
+          <Link href="https://testnet.fraktal.io/">
             <a>
               <b>JOIN FRAKTAL</b>
             </a>

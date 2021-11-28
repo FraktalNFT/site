@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer-section">
       <h4>SHAPE THE FUTURE OF THE CREATIVE INDUSTRY</h4>
       <Link
-        href="https://app.daohaus.club/dao/0x1/0x20aadbcef735356fffeb2f40519ac7105c0284b4"
+        href="https://app.daohaus.club/dao/0xa4b1/0x751eda5aa0a1c026f51942e266ed82795428ae34"
         passHref
       >
         <button>Join the DAO</button>

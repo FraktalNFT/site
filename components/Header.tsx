@@ -25,10 +25,10 @@ const Header = () => {
         <Image src="/hamburger.svg" width={45} height={30} alt="" />
       </div>
       <nav className="main-nav">
-        <Link href="https://app.daohaus.club/dao/0x1/0x20aadbcef735356fffeb2f40519ac7105c0284b4">
+        <Link href="https://app.daohaus.club/dao/0xa4b1/0x751eda5aa0a1c026f51942e266ed82795428ae34">
           <a className="link-text">DAO</a>
         </Link>
-        <Link href="/marketplace">
+        <Link href="https://testnet.fraktal.io/">
           <a className="link-text">Marketplace</a>
         </Link>
         <Link href="https://medium.com/fraktalnft">
@@ -58,10 +58,10 @@ const Header = () => {
         {/*    <Link href='https://fraktal-front-git-web3-integration-sunguru98.vercel.app/'><button>Enter Fraktal</button></Link> */}
       </nav>
       <nav className={`hamburger-nav ${open ? "" : "hide"}`}>
-      <Link href="https://app.daohaus.club/dao/0x1/0x20aadbcef735356fffeb2f40519ac7105c0284b4">
+      <Link href="https://app.daohaus.club/dao/0xa4b1/0x751eda5aa0a1c026f51942e266ed82795428ae34">
         <a className="link-text">DAO</a>
       </Link>
-      <Link href="/marketplace">
+      <Link href="https://testnet.fraktal.io/">
         <a className="link-text">Marketplace</a>
       </Link>
       <Link href="https://medium.com/fraktalnft">
