@@ -387,6 +387,9 @@ h1 {
 /* End Guide */
 
 /* Start Benefits */
+.benefits-section {
+  margin-top: -200px;
+}
 
 @media only screen and (min-width: 720px) {
   .benefits-section {

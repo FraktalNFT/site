@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="about-section">
       <div className="fraktal-mission">
-        <h2>Fractional NFTs enable artists to take full control of their creations.</h2>
+        <h2>Fractional NFTs enable artists to take full control of their creations</h2>
 
       </div>
       <div className="about-button">

@@ -3,23 +3,25 @@ import Image from "next/image";
 const Benefits = () => {
   return (
     <section className="benefits-section">
-    
+    <div className="heading-div">
+       <h2>Fraktal DAO</h2>
+       <p>
+        The Fraktal DAO enables stakeholders and artists to have a voice in the governance of the Fraktal ecosystem and share in the profits
+       </p>
+     </div>
       <div className="benefits-icon">
         <Image src="/engage-icon.svg" width={180} height={180} alt="" />
-        <p>Invest alongside the top collectors in the industry</p>
+        <p>Manage the FRAK Token Treasury and have full control over how capital is deployed</p>
       </div>
       <div className="benefits-icon">
         <Image src="/monetize-icon.svg" width={180} height={180} alt="" />
-        <p>Curate and manage high value NFTs with an amazing community</p>
+        <p>Earn transaction fees from the marketplace and generate passive income from the NFT ecosystem</p>
       </div>
       <div className="benefits-icon">
         <Image src="/retain-icon.svg" width={180} height={180} alt="" />
-        <p>Experience the metaverse like never before through DAO Galleries</p>
+        <p>Have ownership and control of the underlying technology which powers the massive Content Economy of tomorrow</p>
       </div>
-      <div className="benefits-icon">
-        <Image src="/monetize-icon.svg" width={180} height={180} alt="" />
-        <p>Generate income from idle NFTs</p>
-      </div>
+
     </section>
   );
 };
