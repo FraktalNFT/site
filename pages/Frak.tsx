@@ -9,9 +9,9 @@ const MarketPlace = () => {
   return (
     <Layout>
       <Header />
-      <MarketHero />
-      <MarketGuide />
       <MarketIntro />
+
+
       <Footer />
     </Layout>
   );

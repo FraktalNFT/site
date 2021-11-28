@@ -4,7 +4,7 @@ import Image from "next/image";
 const MarketGuide = () => {
   return (
     <section className="guide-section">
-      <h2>How it Works</h2>
+      <h2>Fraktal DAO Token (FRAK)</h2>
       <div className="guide-icons" id="how">
         <div>
           <Image src="/mint.svg" width={200} height={200} alt="" />

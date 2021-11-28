@@ -31,6 +31,9 @@ const Header = () => {
         <Link href="https://testnet.fraktal.io/">
           <a className="link-text">Marketplace</a>
         </Link>
+        <Link href="/Frak">
+          <a className="link-text">FRAK</a>
+        </Link>
         <Link href="https://medium.com/fraktalnft">
           <a className="link-text">Blog</a>
         </Link>
@@ -63,6 +66,9 @@ const Header = () => {
       </Link>
       <Link href="https://testnet.fraktal.io/">
         <a className="link-text">Marketplace</a>
+      </Link>
+      <Link href="/Frak">
+        <a className="link-text">FRAK</a>
       </Link>
       <Link href="https://medium.com/fraktalnft">
         <a className="link-text">Blog</a>

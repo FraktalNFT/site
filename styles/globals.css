@@ -391,6 +391,15 @@ h1 {
   margin-top: -200px;
 }
 
+.benefits-section.marketing {
+  margin-top: 0px;
+
+}
+
+.spacer {
+  margin-top:-200px;
+}
+
 @media only screen and (min-width: 720px) {
   .benefits-section {
     background-image: url("/side-separator.svg");

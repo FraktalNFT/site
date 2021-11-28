@@ -5,8 +5,8 @@ const MarketHero = () => {
     <section className="market-hero">
       <div className="market-heading">
         <h1>
-          FRAKTAL
-          <br /> Marketplace
+          Fraktal DAO Token
+          <br /> FRAK
         </h1>
         <h2>
           The Fraktal Marketplace leverages fractional NFTs to make digital
