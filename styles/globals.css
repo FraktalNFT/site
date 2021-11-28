@@ -374,7 +374,8 @@ h1 {
 
 @media only screen and (min-width: 1000px) {
   .guide-icons div {
-    width: 260px;
+    width: 280px;
+    margin-left: 50px;
   }
 }
 

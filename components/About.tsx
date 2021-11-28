@@ -5,16 +5,12 @@ const About = () => {
   return (
     <section className="about-section">
       <div className="fraktal-mission">
-        <h2>Unleash the Value of NFTs</h2>
-        <p>
-          For NFT collectors who are bored with hodling, Fraktal DAO unlocks the
-          power of NFTs by enabling community driven investment, curation, and
-          monetization.
-        </p>
+        <h2>Fractional NFTs enable artists to take full control of their creations.</h2>
+
       </div>
       <div className="about-button">
         <Link href="#benefits" passHref>
-          <button>Learn More</button>
+          <button>Learn How</button>
         </Link>
       </div>
     </section>

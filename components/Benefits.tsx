@@ -3,14 +3,7 @@ import Image from "next/image";
 const Benefits = () => {
   return (
     <section className="benefits-section">
-      <div className="heading-div">
-        <h2>Go Further Together</h2>
-        <p>
-          Collect, manage and grow together as a community of top collectors
-          working towards disrupting the creative industry to put power back in
-          the hands of artists and individuals.
-        </p>
-      </div>
+    
       <div className="benefits-icon">
         <Image src="/engage-icon.svg" width={180} height={180} alt="" />
         <p>Invest alongside the top collectors in the industry</p>
