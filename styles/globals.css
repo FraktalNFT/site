@@ -352,6 +352,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px
   }
 }
 
@@ -397,7 +398,7 @@ h1 {
 }
 
 .spacer {
-  margin-top:-200px;
+  margin-top:0px;
 }
 
 @media only screen and (min-width: 720px) {
@@ -411,7 +412,7 @@ h1 {
 .heading-div {
   width: 650px;
   margin: 0 auto;
-  margin-bottom: 24%;
+  margin-bottom: 10%;
 }
 
 @media only screen and (max-width: 720px) {
@@ -431,7 +432,7 @@ h1 {
   font-size: 40px;
   color: #000000;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 100px;
 }
 
 .benefits-section p,
